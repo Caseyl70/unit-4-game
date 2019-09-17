@@ -1,0 +1,12 @@
+body {
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1.h2,
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: burlywood;
+    padding: 30px;
+    margin: 15px;
+}
