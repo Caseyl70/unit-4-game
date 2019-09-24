@@ -1,25 +1,62 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Crystal Collector</title>
 </head>
 
 <body>
-    <h1>Crystal Game</h1>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="./assets/javascript/game.js" type="text/javascript"></script>
+    <div class="header">
+        <h1>Crystal Collector</h1>
+    </div>
+    <div class="instructions">
+        <h3>Instructions</h3>
+
+        <ob style="list-style: none;">
+            <li>You will be given a random number at the start </li>
+            <li>of each round; this is your goal number. Each crystal </li>
+            <li>innitally has a value unknown to you, but clicking on </li>
+            <li> each crystal will show you that crystal's specific value.</li>
+            <li>Your job is to match the goal number exactly using a </li>
+            <li>combonation of the four crystals. The values for the crystals</li>
+            <li>change every time you start a new game. Good luck! </li>
+        </ob>
+
+    </div>
+    <div class="targetNumber">
+        <h2>Collect this amount of Crystals:
+            <span id="randomNumber"></span>
+        </h2>
+    </div>
+
+    <h2>
+        <div class="winLose"></div>
+        Wins: </h2>
+    <span id="winsCount"></span>
+    <br />
+    <h2>Losses: </h2>
+    <span id="lossCount"></span>
+    </h2>
+    </h2>
+    <div class="crystals">
+        <input type="image" src="./assets/img/black.jpg" name="crystal1" class="btTxt submit" id="crystal1" />
+        <input type="image" src="./assets/img/blue.jpg" name="crystal2" class="btTxt submit" id="crystal2" />
+        <input type="image" src="./assets/img/pink.jpg" name="crystal3" class="btTxt submit" id="crystal3" />
+        <input type="image" src="./assets/img/red.jpg" name="crystal4" class="btTxt submit" id="crystal4" />
+    </div>
+    <div class="totalScore">
+        <h2>Player Score: </h2>
+        <span id="playerScore"></span>
+    </div>
+    </source>
 </body>
 
 </html>
