@@ -1,12 +1,51 @@
 body {
     color: grey;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: darkgreen;
+    font-family: fantasy;
 }
 
-h1.h2,
-h3 {
-    font-family: 'Times New Roman', Times, serif;
-    color: burlywood;
-    padding: 30px;
-    margin: 15px;
+.instruction {
+    text-align: left;
+    font-size: large;
+}
+
+.black {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}
+
+.blue {
+    width: 150px;
+    height: 150px;
+}
+
+.pink {
+    width: 150px;
+    height: 150px;
+}
+
+.red {
+    width: 150px;
+    height: 150px;
+}
+
+.winLose {
+    text-align: left;
+    bottom: 450px;
+    left: 30px;
+    font-size: large;
+}
+
+.targetlNumber {
+    text-align: left;
+    font-size: large;
+    margin-bottom: 75px;
+}
+
+.totalScore {
+    text-align: left;
+    right: 30px;
+    font-size: large;
+    margin-bottom: 250px;
 }
