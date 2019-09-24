@@ -18,23 +18,17 @@
         <h1>Crystal Collector</h1>
     </div>
     <div class="instruction">
-        <h3>Instructions</h3>
+        <h3>Instructions:</h3>
 
         <ob style="list-style: none;">
-            <li>You will be given a random number at the start </li>
-            <li>of each round; this is your goal number. Each crystal </li>
-            <li>innitally has a value unknown to you, but clicking on </li>
-            <li> each crystal will show you that crystal's specific value.</li>
-            <li>Your job is to match the goal number exactly using a </li>
-            <li>combonation of the four crystals. The values for the crystals</li>
-            <li>change every time you start a new game. Good luck! </li>
+            <strong>You will be given a random number at the start  of each round; this is your goal number. Each crystal innitally has a value unknown to you, but clicking on each crystal will show you that crystal's specific value. Your job
+            is to match the goal number exactly using a combonation of the four crystals. The values for the crystals change every time you start a new game. Good luck!</strong>
         </ob>
 
     </div>
     <div class="targetNumber">
-        <h2>Collect this amount of Crystals:
-            <span id="randomNumber"></span>
-        </h2>
+        <h2>Collect this amount of Crystals:</h2>
+        <span id="randomNumber"></span>
     </div>
 
     <h2>
@@ -44,14 +38,21 @@
     <br />
     <h2>Losses: </h2>
     <span id="lossCount"></span>
-    </h2>
-    </h2>
+
     <div class="crystal">
-        <input type="image" src="./assets/img/black.jpg" name="black" class="black" id="crystal1" />
-        <input type="image" src="./assets/img/blue.jpg" name="blue" class="blue" id="crystal2" />
-        <input type="image" src="./assets/img/pink.jpg" name="pink" class="pink" id="crystal3" />
-        <input type="image" src="./assets/img/red.jpg" name="red" class="red" id="crystal4" />
+        <!-- black crystal button -->
+        <button type="button" class="btn btn-secondary"> <img class ="crystals" id="black" src="assets/img/black.jpg" /></button>
+        <!-- blue crystal button -->
+
+        <button type="button" class="btn btn-secondary"><img class ="crystals" id="blue" src="assets/img/blue.jpg" /></button>
+        <!-- pink crystal button -->
+
+        <button type="button" class="btn btn-secondary"><img class ="crystals" id="pink" src="assets/img/pink.jpg" /></button>
+        <!-- red crystal button -->
+
+        <button type="button" class="btn btn-secondary"><img class ="crystals" id="red" src="assets/img/red.jpg" /></button>
     </div>
+
     <div class="totalScore">
         <h2>Player Score: </h2>
         <span id="playerScore"></span>

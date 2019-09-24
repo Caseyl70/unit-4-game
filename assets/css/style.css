@@ -1,51 +1,11 @@
 body {
-    color: grey;
-    background-color: darkgreen;
+    color: black;
+    background-color: powderblue;
     font-family: fantasy;
 }
 
-.instruction {
-    text-align: left;
-    font-size: large;
-}
-
-.black {
-    width: 150px;
-    height: 150px;
-    background-color: green;
-}
-
-.blue {
-    width: 150px;
-    height: 150px;
-}
-
-.pink {
-    width: 150px;
-    height: 150px;
-}
-
-.red {
-    width: 150px;
-    height: 150px;
-}
-
-.winLose {
-    text-align: left;
-    bottom: 450px;
-    left: 30px;
-    font-size: large;
-}
-
-.targetlNumber {
-    text-align: left;
-    font-size: large;
-    margin-bottom: 75px;
-}
-
-.totalScore {
-    text-align: left;
-    right: 30px;
-    font-size: large;
-    margin-bottom: 250px;
+.crystals {
+    width: 250px;
+    height: 250px;
+    background-color: black;
 }
